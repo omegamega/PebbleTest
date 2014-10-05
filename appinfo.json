@@ -1,0 +1,35 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "omegamega486@gmail.com",
+    "longName": "TEST3",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/20140930_pebble2.png",
+                "name": "SAMPLE2",
+                "type": "png"
+            },
+            {
+                "file": "images/20140930_pebble.png",
+                "name": "SAMPLE",
+                "type": "png"
+            },
+            {
+                "file": "images/no_litter.png",
+                "name": "IMAGE_NO_LITTER",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "TEST3",
+    "uuid": "2c7854d1-6daa-4443-af63-064b23ed0daf",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
