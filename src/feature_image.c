@@ -43,7 +43,10 @@ void tap_hide_text_timer_callback(void* data) {
 void tap_handler(AccelAxisType axis, int32_t direction)
 {
 	layer_set_hidden((Layer*)text_layer, false);
-	light_enable(true);
+	light_enable(true);	
+	
+	layer_set_hidden((Layer*)image_layer2, false);
+
 	app_timer_register(3000, tap_hide_text_timer_callback, NULL);	
 }
 
@@ -91,6 +94,7 @@ int main(void) {
   gbitmap_destroy(image2);
 
   bitmap_layer_destroy(image_layer);
+  bitmap_layer_destroy(image_layer2);
 	text_layer_destroy(text_layer);
   window_destroy(window);
 }

@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "omegamega486@gmail.com",
-    "longName": "TEST3",
+    "longName": "Odoroki-chan",
     "projectType": "native",
     "resources": {
         "media": [
@@ -20,10 +20,10 @@
             }
         ]
     },
-    "shortName": "TEST3",
+    "shortName": "Odoroki-chan",
     "uuid": "2c7854d1-6daa-4443-af63-064b23ed0daf",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "0.1",
     "watchapp": {
         "watchface": true
     }
