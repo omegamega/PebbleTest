@@ -17,11 +17,6 @@
                 "file": "images/20140930_pebble.png",
                 "name": "SAMPLE",
                 "type": "png"
-            },
-            {
-                "file": "images/no_litter.png",
-                "name": "IMAGE_NO_LITTER",
-                "type": "png"
             }
         ]
     },
